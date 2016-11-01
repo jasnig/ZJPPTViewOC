@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A10EC901DB5FF44001C4120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A10EC8F1DB5FF44001C4120 /* main.m */; };
+		4A10EC931DB5FF44001C4120 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A10EC921DB5FF44001C4120 /* AppDelegate.m */; };
+		4A10EC961DB5FF44001C4120 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A10EC951DB5FF44001C4120 /* ViewController.m */; };
+		4A10EC991DB5FF44001C4120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A10EC971DB5FF44001C4120 /* Main.storyboard */; };
+		4A10EC9B1DB5FF44001C4120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A10EC9A1DB5FF44001C4120 /* Assets.xcassets */; };
+		4A10EC9E1DB5FF44001C4120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A10EC9C1DB5FF44001C4120 /* LaunchScreen.storyboard */; };
+		4A10ECA91DB5FF44001C4120 /* ZJPPTViewInitialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A10ECA81DB5FF44001C4120 /* ZJPPTViewInitialTests.m */; };
+		4A10ECB41DB5FF44001C4120 /* ZJPPTViewInitialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A10ECB31DB5FF44001C4120 /* ZJPPTViewInitialUITests.m */; };
+		4A10ECC31DB60015001C4120 /* ZJPPTViewOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A10ECC21DB60015001C4120 /* ZJPPTViewOC.m */; };
+		4A10ECC61DB601B4001C4120 /* ZJPPTViewDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A10ECC51DB601B4001C4120 /* ZJPPTViewDefaultCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A10ECA51DB5FF44001C4120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A10EC831DB5FF44001C4120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A10EC8A1DB5FF44001C4120;
+			remoteInfo = ZJPPTViewInitial;
+		};
+		4A10ECB01DB5FF44001C4120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A10EC831DB5FF44001C4120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A10EC8A1DB5FF44001C4120;
+			remoteInfo = ZJPPTViewInitial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A10EC8B1DB5FF44001C4120 /* ZJPPTViewInitial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJPPTViewInitial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A10EC8F1DB5FF44001C4120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A10EC911DB5FF44001C4120 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A10EC921DB5FF44001C4120 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A10EC941DB5FF44001C4120 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A10EC951DB5FF44001C4120 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A10EC981DB5FF44001C4120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A10EC9A1DB5FF44001C4120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A10EC9D1DB5FF44001C4120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A10EC9F1DB5FF44001C4120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A10ECA41DB5FF44001C4120 /* ZJPPTViewInitialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJPPTViewInitialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A10ECA81DB5FF44001C4120 /* ZJPPTViewInitialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPPTViewInitialTests.m; sourceTree = "<group>"; };
+		4A10ECAA1DB5FF44001C4120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A10ECAF1DB5FF44001C4120 /* ZJPPTViewInitialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJPPTViewInitialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A10ECB31DB5FF44001C4120 /* ZJPPTViewInitialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPPTViewInitialUITests.m; sourceTree = "<group>"; };
+		4A10ECB51DB5FF44001C4120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A10ECC11DB60015001C4120 /* ZJPPTViewOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPPTViewOC.h; sourceTree = "<group>"; };
+		4A10ECC21DB60015001C4120 /* ZJPPTViewOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPPTViewOC.m; sourceTree = "<group>"; };
+		4A10ECC41DB601B4001C4120 /* ZJPPTViewDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPPTViewDefaultCell.h; sourceTree = "<group>"; };
+		4A10ECC51DB601B4001C4120 /* ZJPPTViewDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPPTViewDefaultCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A10EC881DB5FF44001C4120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A10ECA11DB5FF44001C4120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A10ECAC1DB5FF44001C4120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A10EC821DB5FF44001C4120 = {
+			isa = PBXGroup;
+			children = (
+				4A10EC8D1DB5FF44001C4120 /* ZJPPTViewInitial */,
+				4A10ECA71DB5FF44001C4120 /* ZJPPTViewInitialTests */,
+				4A10ECB21DB5FF44001C4120 /* ZJPPTViewInitialUITests */,
+				4A10EC8C1DB5FF44001C4120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A10EC8C1DB5FF44001C4120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A10EC8B1DB5FF44001C4120 /* ZJPPTViewInitial.app */,
+				4A10ECA41DB5FF44001C4120 /* ZJPPTViewInitialTests.xctest */,
+				4A10ECAF1DB5FF44001C4120 /* ZJPPTViewInitialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A10EC8D1DB5FF44001C4120 /* ZJPPTViewInitial */ = {
+			isa = PBXGroup;
+			children = (
+				4A10EC911DB5FF44001C4120 /* AppDelegate.h */,
+				4A10EC921DB5FF44001C4120 /* AppDelegate.m */,
+				4A10EC941DB5FF44001C4120 /* ViewController.h */,
+				4A10EC951DB5FF44001C4120 /* ViewController.m */,
+				4A10ECC11DB60015001C4120 /* ZJPPTViewOC.h */,
+				4A10ECC21DB60015001C4120 /* ZJPPTViewOC.m */,
+				4A10ECC41DB601B4001C4120 /* ZJPPTViewDefaultCell.h */,
+				4A10ECC51DB601B4001C4120 /* ZJPPTViewDefaultCell.m */,
+				4A10EC971DB5FF44001C4120 /* Main.storyboard */,
+				4A10EC9A1DB5FF44001C4120 /* Assets.xcassets */,
+				4A10EC9C1DB5FF44001C4120 /* LaunchScreen.storyboard */,
+				4A10EC9F1DB5FF44001C4120 /* Info.plist */,
+				4A10EC8E1DB5FF44001C4120 /* Supporting Files */,
+			);
+			path = ZJPPTViewInitial;
+			sourceTree = "<group>";
+		};
+		4A10EC8E1DB5FF44001C4120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A10EC8F1DB5FF44001C4120 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A10ECA71DB5FF44001C4120 /* ZJPPTViewInitialTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A10ECA81DB5FF44001C4120 /* ZJPPTViewInitialTests.m */,
+				4A10ECAA1DB5FF44001C4120 /* Info.plist */,
+			);
+			path = ZJPPTViewInitialTests;
+			sourceTree = "<group>";
+		};
+		4A10ECB21DB5FF44001C4120 /* ZJPPTViewInitialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A10ECB31DB5FF44001C4120 /* ZJPPTViewInitialUITests.m */,
+				4A10ECB51DB5FF44001C4120 /* Info.plist */,
+			);
+			path = ZJPPTViewInitialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A10EC8A1DB5FF44001C4120 /* ZJPPTViewInitial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A10ECB81DB5FF44001C4120 /* Build configuration list for PBXNativeTarget "ZJPPTViewInitial" */;
+			buildPhases = (
+				4A10EC871DB5FF44001C4120 /* Sources */,
+				4A10EC881DB5FF44001C4120 /* Frameworks */,
+				4A10EC891DB5FF44001C4120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJPPTViewInitial;
+			productName = ZJPPTViewInitial;
+			productReference = 4A10EC8B1DB5FF44001C4120 /* ZJPPTViewInitial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A10ECA31DB5FF44001C4120 /* ZJPPTViewInitialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A10ECBB1DB5FF44001C4120 /* Build configuration list for PBXNativeTarget "ZJPPTViewInitialTests" */;
+			buildPhases = (
+				4A10ECA01DB5FF44001C4120 /* Sources */,
+				4A10ECA11DB5FF44001C4120 /* Frameworks */,
+				4A10ECA21DB5FF44001C4120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A10ECA61DB5FF44001C4120 /* PBXTargetDependency */,
+			);
+			name = ZJPPTViewInitialTests;
+			productName = ZJPPTViewInitialTests;
+			productReference = 4A10ECA41DB5FF44001C4120 /* ZJPPTViewInitialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A10ECAE1DB5FF44001C4120 /* ZJPPTViewInitialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A10ECBE1DB5FF44001C4120 /* Build configuration list for PBXNativeTarget "ZJPPTViewInitialUITests" */;
+			buildPhases = (
+				4A10ECAB1DB5FF44001C4120 /* Sources */,
+				4A10ECAC1DB5FF44001C4120 /* Frameworks */,
+				4A10ECAD1DB5FF44001C4120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A10ECB11DB5FF44001C4120 /* PBXTargetDependency */,
+			);
+			name = ZJPPTViewInitialUITests;
+			productName = ZJPPTViewInitialUITests;
+			productReference = 4A10ECAF1DB5FF44001C4120 /* ZJPPTViewInitialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A10EC831DB5FF44001C4120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZeroJ;
+				TargetAttributes = {
+					4A10EC8A1DB5FF44001C4120 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G8PCT5S2D;
+					};
+					4A10ECA31DB5FF44001C4120 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G8PCT5S2D;
+						TestTargetID = 4A10EC8A1DB5FF44001C4120;
+					};
+					4A10ECAE1DB5FF44001C4120 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G8PCT5S2D;
+						TestTargetID = 4A10EC8A1DB5FF44001C4120;
+					};
+				};
+			};
+			buildConfigurationList = 4A10EC861DB5FF44001C4120 /* Build configuration list for PBXProject "ZJPPTViewInitial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A10EC821DB5FF44001C4120;
+			productRefGroup = 4A10EC8C1DB5FF44001C4120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A10EC8A1DB5FF44001C4120 /* ZJPPTViewInitial */,
+				4A10ECA31DB5FF44001C4120 /* ZJPPTViewInitialTests */,
+				4A10ECAE1DB5FF44001C4120 /* ZJPPTViewInitialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A10EC891DB5FF44001C4120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A10EC9E1DB5FF44001C4120 /* LaunchScreen.storyboard in Resources */,
+				4A10EC9B1DB5FF44001C4120 /* Assets.xcassets in Resources */,
+				4A10EC991DB5FF44001C4120 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A10ECA21DB5FF44001C4120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A10ECAD1DB5FF44001C4120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A10EC871DB5FF44001C4120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A10EC961DB5FF44001C4120 /* ViewController.m in Sources */,
+				4A10ECC31DB60015001C4120 /* ZJPPTViewOC.m in Sources */,
+				4A10ECC61DB601B4001C4120 /* ZJPPTViewDefaultCell.m in Sources */,
+				4A10EC931DB5FF44001C4120 /* AppDelegate.m in Sources */,
+				4A10EC901DB5FF44001C4120 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A10ECA01DB5FF44001C4120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A10ECA91DB5FF44001C4120 /* ZJPPTViewInitialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A10ECAB1DB5FF44001C4120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A10ECB41DB5FF44001C4120 /* ZJPPTViewInitialUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A10ECA61DB5FF44001C4120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A10EC8A1DB5FF44001C4120 /* ZJPPTViewInitial */;
+			targetProxy = 4A10ECA51DB5FF44001C4120 /* PBXContainerItemProxy */;
+		};
+		4A10ECB11DB5FF44001C4120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A10EC8A1DB5FF44001C4120 /* ZJPPTViewInitial */;
+			targetProxy = 4A10ECB01DB5FF44001C4120 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A10EC971DB5FF44001C4120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A10EC981DB5FF44001C4120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A10EC9C1DB5FF44001C4120 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A10EC9D1DB5FF44001C4120 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A10ECB61DB5FF44001C4120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A10ECB71DB5FF44001C4120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A10ECB91DB5FF44001C4120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJPPTViewInitial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJPPTViewInitial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A10ECBA1DB5FF44001C4120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJPPTViewInitial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJPPTViewInitial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A10ECBC1DB5FF44001C4120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJPPTViewInitialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJPPTViewInitialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJPPTViewInitial.app/ZJPPTViewInitial";
+			};
+			name = Debug;
+		};
+		4A10ECBD1DB5FF44001C4120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJPPTViewInitialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJPPTViewInitialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJPPTViewInitial.app/ZJPPTViewInitial";
+			};
+			name = Release;
+		};
+		4A10ECBF1DB5FF44001C4120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJPPTViewInitialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJPPTViewInitialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJPPTViewInitial;
+			};
+			name = Debug;
+		};
+		4A10ECC01DB5FF44001C4120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJPPTViewInitialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJPPTViewInitialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJPPTViewInitial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A10EC861DB5FF44001C4120 /* Build configuration list for PBXProject "ZJPPTViewInitial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A10ECB61DB5FF44001C4120 /* Debug */,
+				4A10ECB71DB5FF44001C4120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A10ECB81DB5FF44001C4120 /* Build configuration list for PBXNativeTarget "ZJPPTViewInitial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A10ECB91DB5FF44001C4120 /* Debug */,
+				4A10ECBA1DB5FF44001C4120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A10ECBB1DB5FF44001C4120 /* Build configuration list for PBXNativeTarget "ZJPPTViewInitialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A10ECBC1DB5FF44001C4120 /* Debug */,
+				4A10ECBD1DB5FF44001C4120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A10ECBE1DB5FF44001C4120 /* Build configuration list for PBXNativeTarget "ZJPPTViewInitialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A10ECBF1DB5FF44001C4120 /* Debug */,
+				4A10ECC01DB5FF44001C4120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A10EC831DB5FF44001C4120 /* Project object */;
+}

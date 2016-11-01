@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ZJPPTViewCustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="245" height="152"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="245" height="152"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EfQ-ne-TAc">
+                        <rect key="frame" x="0.0" y="0.0" width="245" height="152"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="EfQ-ne-TAc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PP9-DT-yyV"/>
+                <constraint firstItem="EfQ-ne-TAc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UYm-0d-cDX"/>
+                <constraint firstAttribute="trailing" secondItem="EfQ-ne-TAc" secondAttribute="trailing" id="WZd-om-VaW"/>
+                <constraint firstAttribute="bottom" secondItem="EfQ-ne-TAc" secondAttribute="bottom" id="bE6-BR-m1C"/>
+            </constraints>
+            <size key="customSize" width="245" height="152"/>
+            <connections>
+                <outlet property="imageView" destination="EfQ-ne-TAc" id="8tJ-h1-C7x"/>
+            </connections>
+            <point key="canvasLocation" x="397.5" y="284"/>
+        </collectionViewCell>
+    </objects>
+</document>
